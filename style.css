@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 5vh;
+  padding: 1vh;
+  border: 0.2rem solid black;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+nav #arrow {
+  display: flex;
+  align-items: center;
+  font-size: 8.5vh;
+  color: blueviolet;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 2rem;
+  padding: 0.1rem;
+}
+nav h1 {
+  color: chocolate;
+}
+
+#section1 form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#section1 form #btn {
+  position: relative;
+  left: -3.6%;
+  font-size: 2.5vh;
+  border-radius: 15px;
+  border-color: chocolate;
+  background-color: rgb(35, 231, 84);
+  padding: 0.9em 1.8em 0.9em 1.8em;
+}
+#section1 form .drop {
+  font-size: 2rem;
+}
+#section1 form #options {
+  font-size: 2rem;
+  border-radius: 15px;
+  color: chocolate;
+}
+#section1 form input {
+  font-size: 1.5rem;
+  color: green;
+  width: 35rem;
+  height: 4rem;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
